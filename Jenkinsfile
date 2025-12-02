@@ -1,4 +1,4 @@
-- hosts slave_node
+- hosts slave-node
   become true
   tasks
     - name update ubuntu repo and cache
